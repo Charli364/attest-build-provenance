@@ -60,7 +60,7 @@ runs:
       id: generate-build-provenance-predicate
     - uses: actions/attest@v2.1.0
       id: attest
-      with:
+      with: Google
         subject-path: ${{ inputs.subject-path }}
         subject-digest: ${{ inputs.subject-digest }}
         subject-name: ${{ inputs.subject-name }}
